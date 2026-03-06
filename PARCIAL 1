@@ -1,1 +1,45 @@
-Que son los microcontroladores y los microprocesadores?
+*Que son los microcontroladores y los microprocesadores?*
+-> Un microcontrolador es un pequeño computador que viene integrado dentro de un solo circuito dentro del mismo chip tiene el procesador, la memoria y los puertos de entrada y salida. Se utilizan mucho en sistemas embebidos, porque permiten controlar dispositivos electrónicos de manera sencilla.
+Por ejemplo, se usan en:
+- electrodomésticos
+- sistemas de automatización
+- robots
+- proyectos electrónicos con Arduino
+Su ventaja principal es que consumen poca energía, ocupan poco espacio y son económicos
+-> Un microprocesador es el componente que se encarga de realizar los cálculos y procesar la información en un sistema computacional A diferencia de los microcontroladores, los microprocesadores necesitan otros componentes externos, como memoria RAM, memoria de almacenamiento y dispositivos de entrada y salida.
+Los microprocesadores se utilizan principalmente en:
+- computadores
+- laptops
+- servidores
+- algunos dispositivos móviles
+- Su principal ventaja es que tienen mayor potencia de procesamiento.
+
+*Defina la arquitectura Von Neumann y la Arquitectura de Harvard además: Exponer sus características, ventajas y diferencias.*
+-> Arquitectura Von Neumann La arquitectura Von Neumann es un modelo de computadora en el cual los datos y las instrucciones se almacenan en la misma memoria. Esto significa que el procesador utiliza el mismo canal para acceder tanto a los datos como a las instrucciones.
+°Características
+Usa una sola memoria para datos e instrucciones
+Utiliza un solo bus de comunicación
+El procesamiento se realiza de forma secuencial
+°Ventajas
+Es una arquitectura sencilla
+Fácil de implementar
+Menor costo
+°Desventajas
+Puede presentarse un problema llamado cuello de botella, porque el procesador solo puede acceder a una cosa a la vez.
+Arquitectura Harvard
+
+-> La arquitectura Harvard es diferente porque separa la memoria de datos y la memoria de instrucciones. Esto permite que el procesador pueda acceder a ambas al mismo tiempo.
+°Características
+Memoria separada para datos e instrucciones
+Dos buses de comunicación
+Mayor eficiencia
+°Ventajas
+Mayor velocidad
+Permite procesar datos e instrucciones simultáneamente
+Mayor rendimiento
+°Desventajas
+Es más compleja de diseñar
+Puede ser más costosa
+
+*¿Qué son los procesadores tipos RISC y tipo CISC?*
+-> Los tipo RISC son 
